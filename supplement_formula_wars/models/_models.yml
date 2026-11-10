@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_supplement_labels
+    columns:
+      - name: label_id
+        data_tests:
+          - not_null
+          - unique
+  - name: int_ingredient_quantities
+    columns:
+      - name: label_id
+        data_tests:
+          - not_null

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SUPPLEMENT_FORMULA_WARS
+    schema: RAW
+    tables:
+      - name: supplement_labels
+        identifier: SUPPLEMENT_LABELS

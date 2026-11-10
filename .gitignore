@@ -5,3 +5,6 @@ __pycache__/
 .pytest_cache/
 data/raw/
 .DS_Store
+target/
+logs/
+dbt_packages/
